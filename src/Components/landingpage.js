@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import ManImg from '../Images/man-4.png';
+import ManImg from '../Images/Me.png';
 
 
 const styles = {
@@ -22,17 +22,17 @@ class Landing extends Component {
                     />
 
                     <div className="banner-text">
-                        <h1>Full Stack Web Developer</h1>
+                        <h1>Geoffrey Wiederecht</h1>
                         <hr />
-                        <p>HTML/CSS | Bootstrap | Javascript | React | NodeJS</p>
+                        <p>React | NodeJS | Javascript | Python | HTML/CSS</p>
                         <div className="social-links">
                             {/* LinkedIn */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/geoffreywiederecht/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square"   aria-hidden="true" />
                             </a>
 
                             {/* Github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/gwiederecht11" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square"   aria-hidden="true" />
                             </a>
 
