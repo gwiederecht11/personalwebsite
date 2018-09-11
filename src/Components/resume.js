@@ -3,6 +3,8 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Me1 from '../Images/nuurglass.png';
+import Me2 from '../Images/RVCA.png';
 
 class Resume extends Component {
     render() {
@@ -12,9 +14,9 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src={Me1}
                                 alt="avatar"
-                                style={{position: 'relative', height: '200px', left: '-50px', top: '30px'}}
+                                style={{position: 'relative', height: '300px', left: '-20px', top: '30px'}}
                                 />
                         </div>
 
@@ -32,7 +34,7 @@ class Resume extends Component {
                         <h5>Phone</h5>
                         <p>(925) 872-9246</p>
                         <h5>Web</h5>
-                        <p>geoffreywiederecht.herokuapp.com</p>
+                        <p>https://www.geoffw.xyz</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '80%'}} />
                         </Cell>
                     <Cell className="resume-right-col" col={8}>
