@@ -71,9 +71,9 @@ class Projects extends Component {
                                         <Button colored>GitHub</Button>
                                     </a>
                                     
-                                <a href="https://google.com" rel="noopener noreferrer" target="_blank">
-                                        <Button colored>LiveDemo</Button>
-                                </a>
+                                
+                                <Button colored>LiveDemo</Button>
+                                
                                 </CardActions>
                             </div>
                         

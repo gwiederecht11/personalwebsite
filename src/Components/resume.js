@@ -32,7 +32,7 @@ class Resume extends Component {
                         <h5>Phone</h5>
                         <p>(925) 872-9246</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>geoffreywiederecht.herokuapp.com</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '80%'}} />
                         </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -42,6 +42,7 @@ class Resume extends Component {
                             endYear={'June 2020'}
                             schoolName="UC Berkeley"
                             schoolDescription="Bachelor of Arts in Computer Science"
+                            gpa="GPA: 3.5"
                             />
                             <Education 
                                 startYear={'Aug 2012'}
@@ -75,51 +76,7 @@ class Resume extends Component {
                     <hr style={{borderTop: '3px solid #e22947'}} />
                     <h2>Skills</h2>
                     <Skills 
-                    skill='Java'
-                    progress={80}
-                    />
-                     <Skills 
-                    skill='Python'
-                    progress={80}
-                    />
-                    <Skills 
-                    skill='C'
-                    progress={80}
-                    />
-                    <Skills 
-                    skill='Javascript'
-                    progress={80}
-                    />
-                    <Skills 
-                    skill='NodeJS'
-                    progress={80}
-                    />
-                     <Skills 
-                    skill='ReactJS'
-                    progress={70}
-                    />
-
-                     <Skills 
-                    skill='Rails'
-                    progress={70}
-                    />
-                    
-                    <Skills 
-                    skill='Swift'
-                    progress={80}
-                    />
-                
-                    <Skills 
-                    skill='HTML/CSS'
-                    progress={65}
-                    />
-                     <Skills 
-                    skill='SQL'
-                    progress={80}
-                    />
-                     <Skills 
-                    skill='MongoDB'
-                    progress={65}
+                    skill='Java, Python, C, Javascript, Node.js, React.js, Rails, Swift, HTML/CSS, SQL, MongoDB'
                     />
                                                         
                     </Cell>
