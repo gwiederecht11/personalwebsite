@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import MeImg from '../Images/geoff.png';
 
 class Contact extends Component {
     render() {
@@ -9,9 +10,10 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Geoffrey Wiederecht</h2>
                             <img 
-                            src= "https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                            src={MeImg}
+                           // src= "https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                             alt=""
-                            style={{height: '250px'}}
+                            style={{height: '300px'}}
                             /> 
                             <p style ={{width: '75%', margin: 'auto', paddingTop: '2em'}}>
                             Student developer studying computer science at UC Berkeley. 
@@ -32,23 +34,15 @@ class Contact extends Component {
                                             (925) 872-9246</ListItemContent>
                                     </ListItem>
 
-                                    {/* <ListItem>
-                                        <ListItemContent style ={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                            <i className="fa fa-fax" aria-hidden="true"/>
-                                            (123) 456-7890</ListItemContent>
-                                    </ListItem> */}
+                                    
 
                                     <ListItem>
-                                        <ListItemContent style ={{fontSize: '29px', fontFamily: 'Anton'}}>
+                                        <ListItemContent style ={{fontSize: '30px', fontFamily: 'Anton'}}>
                                             <i className="fa fa-envelope" aria-hidden="true"/>
                                             gwiederecht11@berkeley.edu</ListItemContent>
                                     </ListItem>
 
-                                    {/* <ListItem>
-                                        <ListItemContent style ={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                            <i className="fa fa-skype" aria-hidden="true"/>
-                                            SkypeID</ListItemContent>
-                                    </ListItem> */}
+                                    
                                    
                                 </List>
                         </div>

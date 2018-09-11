@@ -82,8 +82,16 @@
 }
 
 .contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 60px;
+  padding-right: 1rem;
+}
+
+.btn-group {
+  width: 100%;
+}
+
+.btn-group Button {
+  width: 50%;
 }
 
 .projects-grid {
